@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register | Jav Football Academy</title>
+<meta name="description" content="Jav Football Academy: youth football training for every age group.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head><body>
+<header class="top"><div class="wrap"><a class="logo" href="index.html">Jav Football Academy</a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><a href="index.html">Home</a><a href="programs.html">Programs</a><a href="coaches.html">Coaches</a><a href="register.html">Register</a></nav></div></header>
+<main><div class="banner"><div class="wrap"><h1>Register your player</h1><p>Send us the details below and we will contact you within two days.</p></div></div><section><div class="wrap"><form id="reg-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+<label>Parent or guardian name<input name="guardian" required autocomplete="name"><span class="err"></span></label>
+<label>Player name<input name="player" required><span class="err"></span></label>
+<label>Player age<input name="age" type="number" required><span class="err"></span></label>
+<label>Program<select name="program" required><option value="">Choose a program</option><option>Ages 6 to 9</option><option>Ages 10 to 13</option><option>Ages 14 to 18</option></select><span class="err"></span></label>
+<label>Phone number<input name="phone" type="tel" required autocomplete="tel"><span class="err"></span></label>
+<label>Email<input name="email" type="email" required autocomplete="email"><span class="err"></span></label>
+<label>Message (optional)<textarea name="message"></textarea></label>
+<div id="status" role="status" aria-live="polite"></div>
+<button class="btn" type="submit">Send registration</button></form></div></section></main><footer><div class="wrap"><p><strong>Jav Football Academy</strong></p>
+<p>Field address, Parish, Jamaica</p><p>Phone: 876-000-0000 · Email: info@example.com</p>
+<p>&copy; <span id="year"></span> Jav Football Academy</p></div></footer></body></html>
